@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Follower Template Builder</title>
+    <script src="./script.js" type="module"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="builder">
+        <div id="template">
+            <img src="" id="background-image">
+            <div id="gray-overlay"></div>
+            <div id="text-box"></div>
+        </div>
+    </section>
+    <section id="builder-settings">
+        <div id="settings">
+            <div class="input-box">
+                <label for="">Main Text</label>
+                <div class="input-box__input">
+                    <input type="text" name="main">
+                    <input type="color" name="main-color">
+                </div>
+            </div>
+            <div class="input-box">
+                <label for="">Description</label>
+                <div class="input-box__input">
+                    <input type="text" name="description">
+                    <input type="color" name="description-color">
+                </div>
+            </div>
+            <div class="input-box">
+                <label for="">Background Brightness</label>
+                <input type="range" name="brightness" max="70" min="0">
+            </div>
+            <div id="button-box">
+                <button id="randomize">Randomize</button>
+                <button id="save">Save</button>   
+                <button id="reset">Reset</button> 
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
