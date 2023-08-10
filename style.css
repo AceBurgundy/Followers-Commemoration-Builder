@@ -22,6 +22,7 @@ body {
     width: 100%;
 }
 
+
 section {
     width: 50%;
     height: 100%;
@@ -164,4 +165,12 @@ button {
     #settings {
         width: 95%;
     }
+    #main-text {
+        font-size: 13rem;
+        line-height: 1;
+    }
+    
+    #description-text {
+        font-size: 2rem;
+    }    
 }
