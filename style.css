@@ -24,12 +24,13 @@ body {
 }
 
 #button-redirect {
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 #button-redirect > p{
     background-color: inherit;
     color: #000;
+    font-size: 0.7rem;
 }
 
 section {
