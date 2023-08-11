@@ -5,8 +5,8 @@ import './html2canvas.js';
  * @param {number} length - The length of the array.
  * @returns {string[]} An array of formatted image filenames.
  */
-const images = Array.from({ length: 10 }, (_, i) => ("0" + i).slice(-2));
-
+const images = Array.from({ length: 23 }, (_, i) => ("0" + i).slice(-2));
+console.log(images);
 /**
  * Get a random image filename from the provided array.
  * @param {string[]} array - The array of image filenames.
@@ -14,7 +14,7 @@ const images = Array.from({ length: 10 }, (_, i) => ("0" + i).slice(-2));
  */
 export function getRandomImage() {
     const randomImage = images[Math.floor(Math.random() * images.length)];
-    return `./assets/images/${randomImage}.jpg`;
+    return `./assets/images/${randomImage}.webp`;
 }
 
 /**
