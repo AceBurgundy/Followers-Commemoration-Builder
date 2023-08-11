@@ -22,6 +22,14 @@ body {
     width: 100%;
 }
 
+#button-redirect {
+    margin-top: 1rem;
+}
+
+#button-redirect > p{
+    background-color: inherit;
+    color: #000;
+}
 
 section {
     width: 50%;
@@ -140,10 +148,15 @@ input {
     gap: 1rem;
 }
 
+a {
+    text-decoration: none;
+}
+
 button {
     border: none;
     border-radius: 20px;
     padding: 0.5rem 1rem;
+    font-size: 1rem;
     background-color: white;
     cursor: pointer;
     height: fit-content;

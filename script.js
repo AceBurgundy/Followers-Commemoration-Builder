@@ -71,3 +71,14 @@ element("reset").onclick = () => {
     }
     
 }
+
+element("button-redirect").onclick = event => {
+
+    event.preventDefault()
+    
+    const confirmed = confirm("Are you sure? All your edit will be removed")
+
+    if (confirmed) {
+        window.location.href = "./thanks.html"
+    }
+}
